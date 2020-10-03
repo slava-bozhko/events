@@ -40,3 +40,118 @@ body {
 .box--bg-gradient{
     background-image: linear-gradient(to bottom, #333339 50%, #fe00cc 100%);
 }
+
+a{
+    text-decoration: none;
+}
+h1, h2 {
+  font-size: 60px;  
+}
+
+h3 {
+    font-size: 36px;  
+  }
+  
+h4 {
+    font-size: 30px;  
+  }
+h5 {
+    font-size: 24px ;  
+  }
+header{
+      color: #FFF;
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+  }
+header a{
+    color: inherit;
+}
+
+.logo{
+    font-weight: 700;
+    font-size: 33px;
+}
+.logo:hover,
+.logo:focus,
+.logo:active {
+    color: #e71cb4;
+}
+nav ul{
+    padding: 0;
+}
+
+nav ul li{
+    display: inline-block;
+    margin-left: 25px;
+}
+
+nav ul li a{
+    padding: 5px 0;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+}
+nav ul li a:hover,
+nav ul li a:focus,
+nav ul li a:active{
+    color:#e71cb4;
+    border-color: #e71cb4;
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero{
+    min-height: 100vh;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+
+.hero_text{
+    font-size: 30px;
+    margin: 70px;
+}
+.hero_title{
+    margin-bottom: 30px;
+}
+
+.btn{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #e71cb4;
+    border: 2px solid #e71cb4;
+    border-radius: 5px;
+    padding: 15px 45px;
+    display: inline-block;
+
+}
+
+.btn--lg{
+    font-size: 22px;
+    padding: 25px 80px;
+}
+.btn:hover,
+.btn:focus,
+.btn:active{
+color:#e71cb4;
+background-color: #fff;
+}
+.btn--trans{
+    background-color: transparent;
+    border-color: #fff;
+}
+.btn--trans:hover,
+.btn--trans:focus,
+.btn--trans:active{
+    color:#444;
+}
+
