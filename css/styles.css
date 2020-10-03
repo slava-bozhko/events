@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap');
 
 *{
     box-sizing: border-box;
@@ -13,6 +13,7 @@ body {
     font-size: 22px;
     font-weight: 400;
     color: #444;
+    line-height: 1.6;
 }
 .container{
     max-width: 1170px;
@@ -21,7 +22,7 @@ body {
 }
 
 .box{
-    outline: 1px solid orange;
+    /* outline: 1px solid orange; */
     padding: 90px 0;
 }
 
@@ -46,6 +47,7 @@ a{
 }
 h1, h2 {
   font-size: 60px;  
+  font-weight: 700;
 }
 
 h3 {
@@ -90,6 +92,7 @@ nav ul li{
 nav ul li a{
     padding: 5px 0;
     font-size: 16px;
+    font-weight: 700;
     border-bottom: 2px solid transparent;
 }
 nav ul li a:hover,
@@ -113,6 +116,10 @@ header .container{
     align-items: center;
     text-align: center;
     color: #fff;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/ezra-comeau-jeffrey-77199-unsplash.jpg);
 }
 
 .hero_text{
@@ -154,4 +161,14 @@ background-color: #fff;
 .btn--trans:active{
     color:#444;
 }
+.text-purpul{
+    
+    color:purple;
+}
+.text-lg{
+    font-size: 32px;
+}
+
+
+
 
