@@ -73,7 +73,7 @@ header a{
 
 .logo{
     font-weight: 700;
-    font-size: 33px;
+    font-size: 34px;
 }
 .logo:hover,
 .logo:focus,
@@ -139,7 +139,6 @@ header .container{
     border-radius: 5px;
     padding: 15px 45px;
     display: inline-block;
-
 }
 
 .btn--lg{
@@ -168,7 +167,3 @@ background-color: #fff;
 .text-lg{
     font-size: 32px;
 }
-
-
-
-
