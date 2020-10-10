@@ -297,6 +297,7 @@ background-color: #fff;
 .countdown__item:focus{
     background-color: transparent;
     border: 1px solid #ffffff;
+    cursor: pointer;
 }
 
 .countdown__num{
@@ -315,7 +316,7 @@ background-color: #fff;
     padding: 0;
     display: flex;
     justify-content: center;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
 }
 
 .sponsor{
