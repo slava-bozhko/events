@@ -34,3 +34,13 @@ C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use
 [1005/110119.031:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
 [1005/155938.516:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
 [1005/155938.883:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1024/132955.747:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 1612
+[1024/132955.747:ERROR:mf_helpers.cc(14)] Error in dxva_video_decode_accelerator_win.cc on line 842
+[1024/132955.770:WARNING:angle_platform_impl.cc(52)] compileToBinary(230): 
+C:\fakepath(69,8-58): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+C:\fakepath(77,9-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+
+[1024/171726.067:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1024/222018.095:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1024/222022.710:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
+[1024/222023.100:WARNING:dns_config_service_win.cc(668)] Failed to read DnsConfig.
