@@ -8,6 +8,8 @@
     <link rel="shortcut icon" href="favicon.png" type="image/png">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/menu.css">
+
 
 </head>
 
@@ -16,19 +18,26 @@
 <header>
     <div class="container">
         <a href="#" class="logo">Events</a>
+        <input type="checkbox" name="toggler-input" id="toggler-input">
+        <label id="toggler" for="toggler-input">
+            <span></span>
+            <span></span>
+            <span></span>
+        </label>
+
         <nav>
             <ul>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Jury</a></li>
-                <li><a href="#">Competitors</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="#about" onclick="closeMenu()">About</a></li>
+                <li><a href="#jury" onclick="closeMenu()">Jury</a></li>
+                <li><a href="#competpitors" onclick="closeMenu()">Competitors</a></li>
+                <li><a href="#contact" onclick="closeMenu()">Contact Us</a></li>
             </ul>
         </nav>
     </div>
 </header>
 
 
-<main></main>
+<main>
 
     <section class="box box--padinng-lg hero">
         <div>
@@ -44,7 +53,7 @@
         </div>
     </section>
         
-    <section class="box box--padinng-lg">
+    <section class="box box--padinng-lg" id="about">
         <div class="container">
             <h2 class="text-purpul">Disign Battles</h2>
             <div class="text-lg">
@@ -94,7 +103,7 @@
                 </a>
         </div>
     </section>
-    <section class="box box--padinng-lg box--bg-gradient">
+    <section class="box box--padinng-lg box--bg-gradient" id="competpitors">
         <div class="container">
             <div class="text-center">
                 <h2>They already said Battles</h2>
@@ -210,7 +219,7 @@
             </form>
         </div>
     </section>
-
+</main>
 <footer class="box box--bg-grey">
     <div class="container container--sm">
         <div class="text-center">
@@ -235,5 +244,10 @@
 
 
 <script src="https://kit.fontawesome.com/e48603161e.js" crossorigin="anonymous"></script>
+<script>
+    function closeMenu(){
+        document.querySelector('#toggler').click();
+    }
+</script>
 </body>
 </html>

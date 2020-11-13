@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Poppins:ital,wght@0,400;0,500;0,700;1,400&display=swap');
-
 *{
     box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
 }
 a, button{
     transition: all .3s ease-in-out;
@@ -104,27 +106,7 @@ header a{
 .logo:active {
     color: #e71cb4;
 }
-nav ul{
-    padding: 0;
-}
 
-nav ul li{
-    display: inline-block;
-    margin-left: 25px;
-}
-
-nav ul li a{
-    padding: 5px 0;
-    font-size: 16px;
-    font-weight: 700;
-    border-bottom: 2px solid transparent;
-}
-nav ul li a:hover,
-nav ul li a:focus,
-nav ul li a:active{
-    color:#e71cb4;
-    border-color: #e71cb4;
-}
 
 header .container{
     display: flex;
